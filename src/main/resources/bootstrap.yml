@@ -1,0 +1,13 @@
+server:
+  port: 8081
+spring:
+  security:
+    user:
+      name: nttbank
+      password: 12345
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/4NTHONY67/config-repository.git
+
